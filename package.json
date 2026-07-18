@@ -1,0 +1,26 @@
+{
+  "name": "mythic-india",
+  "version": "0.1.0",
+  "description": "Browser-based episodic narrative adventure game exploring Indian mythology.",
+  "private": true,
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepskandpal/mythic-india.git"
+  },
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test:story": "node scripts/test-story.mjs"
+  },
+  "dependencies": {
+    "inkjs": "^2.4.0",
+    "phaser": "^3.90.0"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vite": "^8.1.5"
+  }
+}
